@@ -275,12 +275,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button {
   color: #fff;
+  background-color: transparent;
+  border-color: transparent;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+}
+.banner button:hover {
+  border-color: transparent;
 }
 .banner button svg {
   font-size: 25px;

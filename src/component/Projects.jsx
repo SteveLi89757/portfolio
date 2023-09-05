@@ -40,7 +40,11 @@ export default function Projects() {
             <h2>Project</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" defaultActiveKey="/home">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab 1</Nav.Link>
                 </Nav.Item>
@@ -66,7 +70,7 @@ export default function Projects() {
           </Col>
         </Row>
       </Container>
-      <img className="background-img-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
 }

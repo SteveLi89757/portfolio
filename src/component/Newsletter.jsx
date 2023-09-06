@@ -17,7 +17,7 @@ export default function Newsletter({ onValidated, status, message }) {
       });
   };
   return (
-    <Col xs={12} md={11} xl={10} className="mx-auto">
+    <Col xs={12}>
       <div className="newsletter-bx">
         <Row>
           <Col lg={12} md={6} xl={5}>

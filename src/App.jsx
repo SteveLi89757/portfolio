@@ -4,7 +4,7 @@ import Banner from "./component/Banner";
 import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact";
-import MailchimpForm from "./component/MailchimpForm";
+import Footer from "./component/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <MailchimpForm />
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.svg";
 export default function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["My name is Steve", "我的名字是巍程", "私の名前は寿司です"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -50,14 +50,16 @@ export default function Banner() {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {`Hi I'm webdecoded `}
+              {`Hi I'm IT Graduate,`}
+              <br />
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
-              quo libero itaque nemo corporis dolor facere excepturi, quisquam
-              voluptate minima, vel est assumenda temporibus. Molestiae nulla
-              modi dolorum suscipit facere?
+              My name is Steve, I graduated from my IT master degree in 2023,
+              and I am looking for opportunities to start my career in IT
+              industry. I am passionate about learning technology. My final goal
+              to to beacome a full stack developer, but for now I made learning
+              front-end technology my first step.
             </p>
             <button onClick={() => console.log("connect")}>
               Let's connect <ArrowRightCircle size={25} />

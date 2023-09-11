@@ -38,7 +38,7 @@ export default function Projects() {
         <Row>
           <Col>
             <h2>Project</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Future projects display area</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"
@@ -63,8 +63,8 @@ export default function Projects() {
                     })}
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">Lorem ipsum</Tab.Pane>
-                <Tab.Pane eventKey="third">Lorem ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Area 2</Tab.Pane>
+                <Tab.Pane eventKey="third">Area 3</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>

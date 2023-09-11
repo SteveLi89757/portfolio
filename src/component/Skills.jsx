@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import CircularProgressBar from "./ProgressBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
@@ -40,20 +41,36 @@ export default function Skills() {
                 className="skill-slide"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <CircularProgressBar
+                    radius={200}
+                    strokeWidth={40}
+                    progress={100}
+                  />
                   <h5>Passion for learning</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Web Development</h5>
+                  <CircularProgressBar
+                    radius={200}
+                    strokeWidth={40}
+                    progress={70}
+                  />
+                  <h5>HTML & CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <CircularProgressBar
+                    radius={200}
+                    strokeWidth={40}
+                    progress={70}
+                  />
                   <h5>React developemnt</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Passion for learning</h5>
+                  <CircularProgressBar
+                    radius={200}
+                    strokeWidth={40}
+                    progress={70}
+                  />
+                  <h5>AWS</h5>
                 </div>
               </Carousel>
             </div>

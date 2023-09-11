@@ -1,0 +1,15 @@
+.circular-progress {
+    transform: rotate(0deg); /* Rotate to start at 12 o'clock */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .background {
+    fill: none;
+    stroke: transparent； /* Background color */
+  }
+  
+  .progress {
+    fill: none;
+    transition: stroke-dashoffset 0.5s ease;
+  }
